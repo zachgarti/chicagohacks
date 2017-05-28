@@ -1,36 +1,88 @@
+
 body{
-    text-align: center;
-    font-family: "Arial";
-    background-color: DeepSkyBlue;
-    color: black;
+    background-image: url("6.jpg");
+    font-family: "Times New Roman", Times, Serif;
+    color: white;
 }
 
+.mail{
+  width: 275px;
+  height: 275px;
+  float: right;
+  text-align: right;
+  margin-top: -490px ;
+  margin-right: 65px;
+}
+
+.picture{
+  text-align: center;
+}
+
+.About-Us {
+   text-align: left;
+   width: 275px;
+   height: 275px;
+   margin-left: 70px;
+   margin-top: -700px;
+}
+
+.Our-Story{
+    text-align: center;
+    width: 28.5%;
+    height: 100px;
+    border: 5px black;
+    background-color: #0d5107;
+    margin-top: 0px;
+}
+
+.boxed {
+    width: 28.5%;
+    height: 130px;
+    border: 1px black;
+    background-color: #0d5107;
+    text-align: center;
+}
+
+.boxed2{
+    width: 28.25%;
+    border: 1px black;
+    background-color: #0d5107;
+    text-align: center;
+    float: right;
+    margin-top: -230px;
+}
+.flag{
+    text-align: center;
+    margin-top: -229px;
+    margin-left: 398px;
+    
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #e7e7e7;
+    border: 1px solid black;
     background-color: #f3f3f3;
+    font-weight: bold;
 }
 
 li {
     float: left;
+    width: 33.3333333333333%;
+    background-color: #0d5107;
+    
 }
 
 li a {
     display: block;
-    color: #666;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #ddd;
-}
-
-.active {
-    color: white;
-    background-color: #4CAF50;
+    background-color: #fff;
+    color: black;
 }
